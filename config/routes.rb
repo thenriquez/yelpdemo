@@ -1,4 +1,7 @@
 Yelpdemo::Application.routes.draw do
+  resources :restaurants
+
+
   get "pages/about"
 
   get "pages/contact"
